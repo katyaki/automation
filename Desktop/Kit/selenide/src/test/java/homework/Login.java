@@ -27,7 +27,7 @@ public class Login {
 
         $(By.cssSelector("[name=signin]")).click();
         $(By.name("login")).val("cath.22@yandex.ua");
-        $(By.xpath("//*[@name='password']")).val("q1a2z3");
+        $(By.xpath("//*[@name='password']")).val("Q1a2z3");
         $(By.xpath("//*[@type='submit']")).click();
         $(By.xpath("//*[@class='header-user-pre-title']")).shouldHave(text("Здравствуйте"));
     }
