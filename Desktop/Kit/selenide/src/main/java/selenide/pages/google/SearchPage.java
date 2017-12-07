@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class SearchPage {
 
-    private SelenideElement search = $(By.name("qq"));
+    private SelenideElement search = $(By.name("q"));
 
     @Step("Search for {0}")
     public SearchPage searchFor(String searchText){
