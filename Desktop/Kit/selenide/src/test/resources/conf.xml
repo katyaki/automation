@@ -6,7 +6,7 @@
             <parameter name="remoteBrowser" value="chrome"/>
         </parameters>
         <classes>
-            <class name="com.google.SelenideGoogleSearchTest" />
+            <class name="com.google.SimpleGoogleSearchTest" />
         </classes>
     </test>
     <test name="MAC + FireFox Test">
@@ -15,7 +15,7 @@
             <parameter name="remoteBrowser" value="firefox" />
         </parameters>
         <classes>
-            <class name="com.google.SelenideGoogleSearchTest" />
+            <class name="com.google.SimpleGoogleSearchTest" />
         </classes>
     </test>
 </tests>

@@ -35,6 +35,9 @@ public class SimpleGoogleSearchTest  extends WebDriverTestBase {
         WebElement resultLink = webDriver.findElement(resultLinkLocator);
         assertTrue(resultLink.getText().contains(searchText));
     }
+
 }
+
+
 
 
